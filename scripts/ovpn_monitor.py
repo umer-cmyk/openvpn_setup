@@ -11,7 +11,7 @@ import json
 API_BASE_URL = "https://papi.fusionsai.net/api"
 OVPN_INTERFACE = "tun0" # Default OpenVPN interface
 STATUS_FILE = "/var/log/openvpn/openvpn-status.log" # Path to your OpenVPN status log
-NETWORK_INTERFACE = "<interface>" # REPLACE with your actual WAN interface (e.g., eth0)
+NETWORK_INTERFACE = "eth0" # REPLACE with your actual WAN interface (e.g., eth0)
 SERVICE_NAME = "openvpn-server@server.service" # Adjust if your service is named differently
 PLATFORM = "android"
 
