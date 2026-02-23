@@ -158,7 +158,7 @@ def send_data():
 
     # Send Users
     try:
-        url = f"{API_BASE_URL}/total-users/openvpn/{ipAddress}/{user_count}"
+        url = f"{API_BASE_URL}/total-users/{ipAddress}/{user_count}"
         resp = requests.post(url, timeout=10)
         print(f"[INFO] Users   → {resp.url} | Status: {resp.status_code}")
     except Exception as e:
